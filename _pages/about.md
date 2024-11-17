@@ -22,11 +22,9 @@ I completed my Master's in Chemical Engineering from the [Indian Institute of Te
 
 Research Interests
 ======
-<div style="text-align: right">
 I am currently focused on studying Metal-Organic Frameworks (MOFs) for gas separations using advanced computational techniques. My research leverages a combination of Monte Carlo simulations, molecular dynamics, density functional theory, and machine learning to discover, design, and optimize MOFs and MOF-polymer composites for industrially relevant applications. More broadly, I am interested in the adsorption and transport of gases in nanoporous materials, and how detailed microscopic insights from simulations can be harnessed to engineer improved materials for energy and environmental solutions.
 
 In my previous role at TRDDC, I focused on integrating molecular dynamics and machine learning to predict the thermodynamic properties and biological activities of small organic molecules. I also developed high-throughput cheminformatics pipelines to streamline virtual screening processes, improving efficiency and accuracy. During my Master's, I performed molecular dynamics simulations to explore the structural and thermodynamic behavior of drug-lipid-polymer systems, gaining valuable insights into their interactions, stability, and potential applications.
-</div>
 
 
 Skills
