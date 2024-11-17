@@ -39,6 +39,6 @@ Skills
 
 Contact
 ------
-**Office:** ICGM, CNRS, 1919 Route de Mende, 34297 Montpellier Cedex 5 
-**Alternate Office:** Centre Scientifique et Technique Jean-Féger, Avenue Larribau, 64000 Pau 
+**Office:** ICGM, CNRS, 1919 Route de Mende, 34297 Montpellier Cedex 5  
+**Alternate Office:** Centre Scientifique et Technique Jean-Féger, Avenue Larribau, 64000 Pau  
 **Email:** [prantar.dutta@etu.umontpellier.fr](prantar.dutta@etu.umontpellier.fr) / [prantar.dutta@totalenergies.com](prantar.dutta@totalenergies.com)
