@@ -9,7 +9,7 @@ redirect_from:
 
 ------
 
-I am a PhD student in Computational Chemistry at the [French National Centre for Scientific Research (CNRS)](https://www.cnrs.fr/en) / [University of Montpellier](https://www.umontpellier.fr/en/), under the supervision of [Guillaume Maurin](https://scholar.google.fr/citations?user=QNfwyjgAAAAJ&hl=fr). In parallel, I work as a research engineer at [TotalEnergies](https://www.totalenergies.fr/) in the CO2 and Sustainability R&D division at the [Centre Scientifique et Technique Jean-Féger](https://cstjf-pau.totalenergies.fr/en/our-sites/cstjf), supported by the [CIFRE](https://www.anrt.asso.fr/fr/le-dispositif-cifre-7844) fellowship program and supervised by [Yann Magnin](https://scholar.google.com/citations?user=h4F2hygAAAAJ&hl=fr). While my doctoral research is primarily computational, I closely collaborate with the [IMAP](https://www.ens.psl.eu/laboratoire/institut-des-materiaux-poreux-de-paris-imap) experimental lab, led by [Christian Serre](https://scholar.google.fr/citations?user=SZPA59YAAAAJ&hl=en), to bridge the gap between theory and practice.
+I am a PhD student in Computational Chemistry at the [French National Centre for Scientific Research (CNRS)](https://www.cnrs.fr/en) / [University of Montpellier](https://www.umontpellier.fr/en/), under the supervision of [Guillaume Maurin](https://scholar.google.fr/citations?user=QNfwyjgAAAAJ&hl=fr). In parallel, I work as a research engineer at [TotalEnergies](https://www.totalenergies.fr/) in the CO2 and Sustainability R&D division at the [Centre Scientifique et Technique Jean-Féger](https://cstjf-pau.totalenergies.fr/en/our-sites/cstjf), supported by the [CIFRE](https://www.anrt.asso.fr/fr/le-dispositif-cifre-7844) fellowship program and supervised by [Yann Magnin](https://scholar.google.com/citations?user=h4F2hygAAAAJ&hl=fr).
 
 Before starting my PhD, I spent four years as a researcher at the Tata Research Development and Design Centre, the flagship innovation lab of [TCS Research](https://www.tcs.com/what-we-do/research) in Pune, India. In this role, I led and contributed to both independent and collaborative research projects, provided R&D consultancy to clients, developed innovative assets, and mentored interns. I had the opportunity to work closely with a diverse range of industries, including pharmaceuticals, cosmetics, food and beverages, and paints, fostering cross-disciplinary collaborations and driving impactful solutions.
 
@@ -31,7 +31,7 @@ Skills
 ======
 **Programming & Scripting:** Python, MATLAB, Bash  
 **Methods:** Molecular Dynamics, Monte Carlo, Density Functional Theory, Molecular Docking  
-**Simulation Tools:** GROMACS, LAMMPS, RASPA, VASP, VMD, PLUMED, AutoDock Vina  
+**Simulation Tools:** GROMACS, LAMMPS, RASPA, VASP, CP2K, PLUMED  
 **Data Analytics:** Pandas, Matplotlib, Seaborn, MySQL, Microsoft Power BI  
 **Machine Learning**: Scikit-learn, Keras/TensorFlow, PyTorch  
 **Cheminformatics**: RDKit, Open Babel, DeepChem
