@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Figure placeholder">
+  <defs>
+    <pattern id="hex" width="60" height="103.92" patternUnits="userSpaceOnUse" patternTransform="translate(10 0)">
+      <path d="M30 0 L60 17.32 L60 51.96 L30 69.28 L0 51.96 L0 17.32 Z M30 69.28 L30 103.92 M0 17.32 L-30 0 M60 17.32 L90 0" fill="none" stroke="#8a95a3" stroke-width="1.2" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#eef1f4"/>
+  <rect width="800" height="600" fill="url(#hex)"/>
+  <rect x="290" y="276" width="220" height="48" rx="3" fill="#eef1f4" fill-opacity="0.92"/>
+  <text x="400" y="306" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6a7280">Figure to be added</text>
+</svg>

@@ -1,0 +1,112 @@
+# Publications, newest first. The site groups them by year automatically.
+#
+# Fields:
+#   id        unique key, used to link papers from the Research page
+#   type      article | chapter | patent
+#   authors   list, written exactly as you want them shown; "P. Dutta" is bolded
+#   venue     journal name (article), book title (chapter) or patent number (patent)
+#   doi       DOI without the https://doi.org/ prefix
+#   url       any other link (preprint, publisher page); url_label sets the link text
+#   pdf       path to a PDF you host yourself, e.g. /files/dutta2023deep.pdf
+#   status    optional note such as "In press" or "Accepted"
+
+- id: dutta2026ch4h2
+  type: article
+  title: "Viable metal–organic framework adsorbents for thermodynamics-driven methane/hydrogen separation"
+  # TODO: Google Scholar truncated this author list after Silva; complete it.
+  authors: [P. Dutta, A. Henrique, W. Mandal, L. Bueno, R. V. Pinto, Y. Magnin, S. Barbouteau, G. Mouchaham, C. Serre, J. A. C. Silva, et al.]
+  venue: Chemistry of Materials
+  volume: 38
+  issue: 11
+  pages: 5438–5452
+  year: 2026
+  url: https://pubs.acs.org/cmatex/article-abstract/38/11/5438/5185237/Viable-Metal-Organic-Framework-Adsorbents-for
+  url_label: Article
+
+- id: henrique2026mfu4
+  type: article
+  title: "MFU-4 as a benchmark molecular sieve for efficient CO₂/CH₄ separation in biogas upgrading"
+  authors: [A. Henrique, P. Dutta, M. Gupta, G. Mouchaham, Y. Magnin, C. Serre, G. Maurin, J. A. C. Silva]
+  venue: Journal of Materials Chemistry A
+  volume: 14
+  issue: 39
+  pages: 26053–26065
+  year: 2026
+  doi: 10.1039/D6TA01917J
+
+- id: dutta2026n2h2
+  type: article
+  title: "Viable metal–organic frameworks for adsorptive nitrogen/hydrogen separation at ambient temperature"
+  authors: [P. Dutta, A. Henrique, W. Mandal, L. Bueno, Y. Magnin, S. Barbouteau, G. Mouchaham, C. Serre, J. A. C. Silva, G. Maurin]
+  venue: Journal of Materials Chemistry A
+  year: 2026
+  # TODO: add volume, pages and DOI once available
+
+- id: dutta2025umami
+  type: article
+  title: "Computational screening of umami tastants using deep learning"
+  authors: [P. Dutta, K. Gajula, N. Verma, D. Jain, R. Gupta, B. Rai]
+  venue: Molecular Diversity
+  volume: 29
+  issue: 4
+  pages: 2979–2993
+  year: 2025
+  # TODO: add journal DOI
+  url: https://chemrxiv.org/engage/chemrxiv/article-details/65fa91b59138d23161d8b22a
+  url_label: Preprint
+
+- id: dutta2025olfaction
+  type: chapter
+  title: "Predictive machine learning models for olfaction"
+  authors: [P. Dutta, D. Jain, R. Gupta, B. Rai]
+  venue: "Olfactory Receptors: Methods and Protocols"
+  publisher: Springer
+  pages: 71–99
+  year: 2025
+  # TODO: add chapter DOI
+
+- id: dutta2025patent
+  type: patent
+  title: "Method and system for determining free energy of permeation for molecules"
+  authors: [P. Dutta, R. Gupta, D. S. Jain, B. Rai]
+  venue: European Patent EP4250304B1
+  year: 2025
+  url: https://patents.google.com/patent/EP4250304B1
+  url_label: Patent
+
+- id: dutta2023tastants
+  type: article
+  title: "Classification of tastants: a deep learning based approach"
+  authors: [P. Dutta, D. Jain, R. Gupta, B. Rai]
+  venue: Molecular Informatics
+  volume: 42
+  issue: 12
+  pages: e202300146
+  year: 2023
+  # TODO: add journal DOI
+  url: https://chemrxiv.org/engage/chemrxiv/article-details/6464b8fda32ceeff2dca6fd6
+  url_label: Preprint
+
+- id: dutta2023permeation
+  type: article
+  title: "Deep learning models for the estimation of free energy of permeation of small molecules across lipid membranes"
+  authors: [P. Dutta, D. Jain, R. Gupta, B. Rai]
+  venue: Digital Discovery
+  volume: 2
+  issue: 1
+  pages: 189–201
+  year: 2023
+  doi: 10.1039/D2DD00119E
+
+- id: dutta2021pspc
+  type: article
+  title: "Phase behavior of pure PSPC and PEGylated multicomponent lipid and their interaction with paclitaxel: an all-atom MD study"
+  authors: [P. Dutta, D. Pramanik, J. K. Singh]
+  venue: Langmuir
+  volume: 37
+  issue: 34
+  pages: 10259–10271
+  year: 2021
+  # TODO: add journal DOI
+  url: https://arxiv.org/abs/2103.13662
+  url_label: arXiv

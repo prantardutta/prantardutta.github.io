@@ -1,0 +1,95 @@
+---
+layout: default
+---
+<section class="intro">
+  <img class="intro-photo" src="{{ site.author.photo | relative_url }}" alt="Portrait of {{ site.author.name }}" width="176" height="220">
+  <div class="intro-text">
+    <h1 class="intro-name">{{ site.author.name }}</h1>
+    <p class="intro-lede">I use molecular simulation and machine learning to study porous materials for gas separation and CO₂ capture.</p>
+    <p class="intro-roles">
+      PhD candidate, CNRS / University of Montpellier<br>
+      Research engineer, TotalEnergies
+    </p>
+    {% include links.html %}
+  </div>
+</section>
+
+<section class="row" aria-labelledby="about">
+  <h2 id="about" class="row-heading">About</h2>
+  <div class="row-body prose">
+    <p>I am a PhD candidate in computational chemistry at the Institut Charles Gerhardt Montpellier (CNRS / University of Montpellier), working with Guillaume Maurin. Through a CIFRE industrial PhD, I am also a research engineer in the CO₂ and Sustainability R&amp;D team at TotalEnergies in Pau, working with Yann Magnin.</p>
+    <p>My work asks two questions: which metal–organic frameworks (MOFs) can separate industrial gas mixtures such as CH₄/H₂, N₂/H₂ and CO₂/CH₄, and what happens to a MOF once it is shaped into a pellet with a polymer binder. I use Monte Carlo and molecular dynamics simulations, density functional theory and machine-learned potentials, and compare the results with measurements from experimental collaborators.</p>
+    <p>Before the PhD, I spent four years at TCS Research in Pune building simulation and machine-learning models for small molecules: how they cross lipid membranes, and which candidates are likely to taste umami or carry a given odor. That work was done with clients in food, cosmetics and pharmaceuticals.</p>
+    <p>I expect to defend in September 2027 and am open to positions in both academia and industry.</p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="experience">
+  <h2 id="experience" class="row-heading">Experience</h2>
+  <div class="row-body">
+    <ol class="timeline">
+      {% for item in site.data.cv.positions %}
+      <li>
+        <span class="timeline-dates">{{ item.dates }}</span>
+        <div>
+          <p class="timeline-role">{{ item.role }}</p>
+          <p class="timeline-org">{{ item.org }}</p>
+          {% if item.note %}<p class="timeline-note">{% if item.note_url %}<a href="{{ item.note_url }}">{{ item.note }}</a>{% else %}{{ item.note }}{% endif %}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="education">
+  <h2 id="education" class="row-heading">Education</h2>
+  <div class="row-body">
+    <ol class="timeline">
+      {% for item in site.data.cv.education %}
+      <li>
+        <span class="timeline-dates">{{ item.dates }}</span>
+        <div>
+          <p class="timeline-role">{{ item.role }}</p>
+          <p class="timeline-org">{{ item.org }}</p>
+          {% if item.note %}<p class="timeline-note">{% if item.note_url %}<a href="{{ item.note_url }}">{{ item.note }}</a>{% else %}{{ item.note }}{% endif %}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="recent">
+  <h2 id="recent" class="row-heading">Recent publications</h2>
+  <div class="row-body">
+    <ol class="pubs">
+      {% for p in site.data.publications limit: 3 %}
+        {% include pub.html pub=p show_year=true %}
+      {% endfor %}
+    </ol>
+    <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="methods">
+  <h2 id="methods" class="row-heading">Methods and tools</h2>
+  <div class="row-body">
+    <dl class="methods">
+      {% for m in site.data.cv.methods %}
+      <dt>{{ m.area }}</dt>
+      <dd>{{ m.items }}</dd>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="contact">
+  <h2 id="contact" class="row-heading">Contact</h2>
+  <div class="row-body">
+    <ul class="contact">
+      {% for e in site.author.emails %}<li><a href="mailto:{{ e }}">{{ e }}</a></li>{% endfor %}
+    </ul>
+    <p class="contact-note">Based in Montpellier and Pau, France.</p>
+  </div>
+</section>

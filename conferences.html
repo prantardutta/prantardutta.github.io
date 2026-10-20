@@ -1,0 +1,38 @@
+---
+layout: default
+title: Conferences
+permalink: /conferences/
+description: Conference talks and posters by Prantar Dutta.
+---
+<header class="page-header">
+  <h1 class="page-title">Conferences</h1>
+  <p class="page-lede">Talks and posters at conferences and workshops.</p>
+</header>
+
+{% assign talks = site.data.conferences %}
+{% if talks.size > 0 %}
+{% assign years = talks | map: "year" | uniq %}
+{% for y in years %}
+<section class="row year-group" aria-labelledby="c{{ y }}">
+  <h2 id="c{{ y }}" class="row-heading year">{{ y }}</h2>
+  <div class="row-body">
+    <ol class="pubs">
+      {% for c in talks %}{% if c.year == y %}
+      <li class="pub">
+        <p class="pub-title">{{ c.title }}</p>
+        <p class="pub-venue">{% if c.url %}<a href="{{ c.url }}">{{ c.event }}</a>{% else %}{{ c.event }}{% endif %}{% if c.location %}, {{ c.location }}{% endif %}{% if c.date %}, {{ c.date }}{% endif %}</p>
+        {% if c.type or c.slides %}
+        <p class="pub-links">
+          {% if c.type %}<span class="conf-type">{{ c.type }}</span>{% endif %}
+          {% if c.slides %}<a href="{{ c.slides | relative_url }}">Slides</a>{% endif %}
+        </p>
+        {% endif %}
+      </li>
+      {% endif %}{% endfor %}
+    </ol>
+  </div>
+</section>
+{% endfor %}
+{% else %}
+<p class="placeholder-text">Conference entries will appear here. Add them in <code>_data/conferences.yml</code>.</p>
+{% endif %}

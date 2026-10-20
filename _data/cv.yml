@@ -1,0 +1,38 @@
+# Shown on the home page. Newest first.
+
+positions:
+  - dates: 2024–present
+    role: PhD candidate in computational chemistry
+    org: Institut Charles Gerhardt Montpellier, CNRS / University of Montpellier
+    note: Supervisor Guillaume Maurin
+    note_url: https://scholar.google.fr/citations?user=QNfwyjgAAAAJ&hl=fr
+  - dates: 2024–present
+    role: Research engineer, CO₂ and Sustainability R&D
+    org: TotalEnergies, Pau (CIFRE industrial PhD)
+    note: Supervisor Yann Magnin
+    note_url: https://scholar.google.com/citations?user=h4F2hygAAAAJ&hl=fr
+  - dates: 2020–2024
+    role: Researcher, Physical Sciences
+    org: TCS Research, Pune
+
+education:
+  - dates: 2024–2027
+    role: PhD in Chemistry
+    org: University of Montpellier
+    note: Defense expected September 2027
+  - dates: 2018–2020
+    role: MS in Chemical Engineering
+    org: Indian Institute of Technology Kanpur
+    note: Thesis with Jayant K. Singh
+    note_url: https://scholar.google.com/citations?user=UDr7tjEAAAAJ&hl=en
+  - dates: 2014–2018
+    role: BS in Chemical Engineering
+    org: Jadavpur University, Kolkata
+
+methods:
+  - area: Simulation
+    items: Grand canonical Monte Carlo, molecular dynamics, density functional theory, machine-learned interatomic potentials
+  - area: Software
+    items: RASPA, LAMMPS, GROMACS, VASP, CP2K, PLUMED
+  - area: Machine learning
+    items: PyTorch, TensorFlow, scikit-learn, RDKit, DeepChem

@@ -1,0 +1,24 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Journal articles, book chapters and patents by Prantar Dutta.
+---
+<header class="page-header">
+  <h1 class="page-title">Publications</h1>
+  <p class="page-lede">Journal articles, book chapters and patents. An up-to-date list is also on <a href="{{ site.author.scholar }}">Google Scholar</a>.</p>
+</header>
+
+{% assign years = site.data.publications | map: "year" | uniq %}
+{% for y in years %}
+<section class="row year-group" aria-labelledby="y{{ y }}">
+  <h2 id="y{{ y }}" class="row-heading year">{{ y }}</h2>
+  <div class="row-body">
+    <ol class="pubs">
+      {% for p in site.data.publications %}{% if p.year == y %}
+        {% include pub.html pub=p %}
+      {% endif %}{% endfor %}
+    </ol>
+  </div>
+</section>
+{% endfor %}

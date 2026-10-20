@@ -1,0 +1,8 @@
+<ul class="profile-links">
+  <li><a href="mailto:{{ site.author.emails[0] }}">Email</a></li>
+  <li><a href="{{ site.author.scholar }}">Google Scholar</a></li>
+  <li><a href="{{ site.author.orcid }}">ORCID</a></li>
+  <li><a href="{{ site.author.linkedin }}">LinkedIn</a></li>
+  {% if site.author.github != "" %}<li><a href="{{ site.author.github }}">GitHub</a></li>{% endif %}
+  <li><a href="{{ site.author.cv | relative_url }}">CV (PDF)</a></li>
+</ul>

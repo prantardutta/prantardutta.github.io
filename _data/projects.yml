@@ -1,0 +1,47 @@
+# Research projects, shown in this order on the Research page.
+#
+# To add a figure: put the image in /images/research/ and change `image`.
+# `image_credit` appears under the figure (Markdown allowed), e.g.
+#   "Adapted from Dutta *et al.*, *Chem. Mater.* 2026."
+# `description` is one paragraph (Markdown allowed). Leave empty to show a placeholder.
+# `papers` lists publication ids from _data/publications.yml.
+
+- id: mof-polymer
+  title: MOF–Polymer Composites
+  where: ICGM, CNRS / University of Montpellier and TotalEnergies
+  period: 2024–present
+  image: /images/research/placeholder.svg
+  image_alt: ""
+  image_credit: ""
+  description: ""
+  papers: []
+
+- id: gas-separation
+  title: MOFs for Gas Separation
+  where: ICGM, CNRS / University of Montpellier and TotalEnergies
+  period: 2024–present
+  image: /images/research/placeholder.svg
+  image_alt: ""
+  image_credit: ""
+  description: ""
+  papers: [dutta2026ch4h2, dutta2026n2h2, henrique2026mfu4]
+
+- id: flavor-molecules
+  title: Flavor Molecule Design
+  where: TCS Research, Pune
+  period: 2020–2024
+  image: /images/research/placeholder.svg
+  image_alt: ""
+  image_credit: ""
+  description: ""
+  papers: [dutta2025umami, dutta2023tastants, dutta2025olfaction]
+
+- id: lipid-bilayers
+  title: Lipid Bilayers and Small Molecules
+  where: IIT Kanpur and TCS Research
+  period: 2019–2024
+  image: /images/research/placeholder.svg
+  image_alt: ""
+  image_credit: ""
+  description: ""
+  papers: [dutta2023permeation, dutta2021pspc, dutta2025patent]

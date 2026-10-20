@@ -1,0 +1,24 @@
+# Conference talks and posters, newest first. The page groups them by year.
+#
+# Fields:
+#   year      e.g. 2026
+#   type      Talk | Poster | Invited talk  (any short label works)
+#   title     title of your contribution
+#   event     conference name
+#   location  city, country
+#   date      e.g. June 2026
+#   url       optional link to the conference or abstract
+#   slides    optional path to slides or poster you host, e.g. /files/eurofoam-2026.pdf
+#
+# Example (remove the leading "# " on each line to use it):
+#
+# - year: 2026
+#   type: Talk
+#   title: "Your talk title"
+#   event: Name of the Conference
+#   location: Montpellier, France
+#   date: June 2026
+#   url: https://example.org
+#   slides: /files/slides.pdf
+
+[]

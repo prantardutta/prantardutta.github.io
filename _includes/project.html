@@ -1,0 +1,25 @@
+{% assign proj = include.project %}
+<article class="project" id="{{ proj.id }}">
+  <figure class="project-figure">
+    <img src="{{ proj.image | relative_url }}" alt="{{ proj.image_alt | default: proj.title }}" loading="lazy">
+    {% if proj.image_credit and proj.image_credit != "" %}<figcaption>{{ proj.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+  </figure>
+  <div class="project-body">
+    <h2 class="project-title">{{ proj.title }}</h2>
+    <p class="project-meta">{{ proj.where }}<br>{{ proj.period }}</p>
+    {% if proj.description and proj.description != "" %}
+      <div class="project-text">{{ proj.description | markdownify }}</div>
+    {% else %}
+      <p class="project-text placeholder-text">Description to be added.</p>
+    {% endif %}
+    {% if proj.papers.size > 0 %}
+    <h3 class="related-heading">Related publications</h3>
+    <ul class="related">
+      {% for pid in proj.papers %}{% for p in site.data.publications %}{% if p.id == pid %}
+      <li>{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% elsif p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+        <span class="related-venue">{% if p.type == "chapter" %}Book chapter{% elsif p.type == "patent" %}Patent{% else %}<em>{{ p.venue }}</em>{% endif %}, {{ p.year }}</span></li>
+      {% endif %}{% endfor %}{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>

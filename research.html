@@ -1,0 +1,16 @@
+---
+layout: default
+title: Research
+permalink: /research/
+description: Research projects of Prantar Dutta on metal–organic frameworks, gas separation, flavor molecules and lipid membranes.
+---
+<header class="page-header">
+  <h1 class="page-title">Research</h1>
+  <p class="page-lede">Current work on metal–organic frameworks, followed by earlier projects on small molecules and lipid membranes.</p>
+</header>
+
+<div class="projects">
+  {% for proj in site.data.projects %}
+    {% include project.html project=proj %}
+  {% endfor %}
+</div>
